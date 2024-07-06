@@ -464,7 +464,7 @@ the following key bindings in bash, zsh, and fish.
 - `CTRL-R` - Paste the selected command from history onto the command-line
     - If you want to see the commands in chronological order, press `CTRL-R`
       again which toggles sorting by relevance
-    - Press `CTRL-/` to toggle line wrapping
+    - Press `CTRL-/` or `ALT-/` to toggle line wrapping
     - Set `FZF_CTRL_R_OPTS` to pass additional options to fzf
       ```sh
       # CTRL-Y to copy the command into clipboard using pbcopy

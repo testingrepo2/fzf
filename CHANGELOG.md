@@ -10,7 +10,7 @@ CHANGELOG
       ```sh
       history | fzf --tac --wrap --bind 'ctrl-/:toggle-wrap' --wrap-sign $'\t↳ '
       ```
-    - fzf by default binds `CTRL-/` to `toggle-wrap`
+    - fzf by default binds `CTRL-/` and `ALT-/` to `toggle-wrap`
 - Updated shell integration scripts to leverage line wrap
     - CTRL-R binding includes `--wrap-sign $'\t↳ '` to indent wrapped lines
     - `kill **` completion uses `--wrap` to show the whole line by default
