@@ -617,6 +617,7 @@ func defaultKeymap() map[tui.Event][]*action {
 	if !util.IsWindows() {
 		add(tui.CtrlZ, actSigStop)
 	}
+	add(tui.CtrlSlash, actToggleWrap)
 
 	addEvent(tui.AltKey('b'), actBackwardWord)
 	add(tui.ShiftLeft, actBackwardWord)
